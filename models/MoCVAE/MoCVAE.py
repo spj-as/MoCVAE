@@ -152,11 +152,11 @@ class MoCVAE(nn.Module):
             alpha=self.alpha,
             n_heads=self.n_heads,
         )
-        self.enc = Encoder(
-            in_dim=(self.p_dim + self.h_dim + self.x_dim * 16 + self.s_dim + self.rnn_dim),
-            out_dim=self.z_dim,
-            hidden_dim=self.h_dim,
-        )
+        # self.enc = Encoder(
+        #     in_dim=(self.p_dim + self.h_dim + self.x_dim * 16 + self.s_dim + self.rnn_dim),
+        #     out_dim=self.z_dim,
+        #     hidden_dim=self.h_dim,
+        # )
         self.prior = Encoder(
             in_dim=(self.p_dim + self.x_dim * 16 + self.s_dim + self.rnn_dim + self.h_dim),
             out_dim=self.z_dim,
