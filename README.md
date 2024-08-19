@@ -1,4 +1,4 @@
-# Doubles Motion
+# MoCVAE
 
 ## Setup
 
