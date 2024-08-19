@@ -4,7 +4,7 @@
 
 1. Clone the repo
     ```bash
-    git clone https://github.com/NYCU-MPCLAB/doubles-motion.git
+    git clone https://github.com/spj-as/MoCVAE.git
     ```
 2. Create virtual env
    ```bash
